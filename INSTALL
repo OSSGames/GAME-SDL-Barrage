@@ -1,0 +1,29 @@
+
+How To Install Barrage:
+
+1)     Get SDL and SDL_mixer from http://libsdl.org.
+       Note: If you decide to install packages rather than the
+       source, make sure to install the separate DEVEL packages
+       as well, else you won't be able to compile the game.
+
+2)     Depending on wether you want to install the game to the
+       system or run it locally in your home directory you'll have to:
+       
+       2.1) become root and run './configure; make; make install'
+       2.2) run "configure --disable-install; make;"
+
+       Both times you can apply the additional option --disable-audio
+       to the configure script to compile completely without sound.
+
+3)     Run the game by typing 'barrage' in a terminal (2.1) or enter
+       the subdirectory 'src' and run the binary 'barrage'. (2.2)
+       Note, that you can pass some arguments to barrage, explained in
+       the README.
+
+4)     If you extracted the source you can build an RPM by running 
+       'configure; make rpm'. If you do not want to unpack the 
+       source use 'rpmbuild -ta barrage-1.0.1.tar.gz' to get an RPM
+       directly from the tarball.
+
+Michael Speck
+http://lgames.sf.net

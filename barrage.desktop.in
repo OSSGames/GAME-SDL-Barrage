@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Barrage
+Comment=A rather destructive action game.
+Comment[de]=Ein eher destruktives Action-Spiel
+Exec=barrage
+Icon=
+Type=Application
+Categories=Game;ActionGame;
+Keywords=shmup;shootemup;action;

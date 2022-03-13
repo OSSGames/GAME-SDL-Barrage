@@ -1,0 +1,40 @@
+1.0.5:
+- added command line option -r to force a resolution (2019/09/04 MS)
+- fixed fullscreen mode for non-4:3 resolutions (2019/09/04 MS)
+- allow quit with Alt+F4 (2019/09/02 MS)
+- fixed compiler warning (2019/09/02 MS)
+- install hiscores to proper location instead of home dir (2019/09/02 MS)
+- updated desktop file with german comment and keywords (2014/12/01 Markus Koschany)
+
+1.0.4:
+- install menu icon to proper location (Michael Speck 2011/06/26)
+- fixed out of bounds error in menu (Michael Speck 2011/06/26)
+- fixed build failure with GCC 4.5 (Paul Wise 2011/06/26)
+- fixed use of sprintf (Paul Wise 2011/06/26)
+- fixed getopt portability issue (Paul Wise 2011/06/26)
+- start when no sound is available (Paul Wise 2011/06/26)
+
+1.0.3:
+- added XDG desktop support (10/12/24 MS)
+- cannot fire gun in tree strip (10/12/24 MS)
+- changed human soldiers into dummies (10/12/24 MS)
+- fixed warnings (10/12/23 MS)
+- take user name as initial player name (10/12/23 PJin)
+
+1.0.2:
+- security/stability fix for improper use of snprintf (05/02/14 U.H.)
+- replaced email address with lgames web URL for feedback (05/02/14 M.S.) 
+- README/INSTALL files improved (05/02/14 M.S.)
+- command-line options for main loop delay, windowed mode and no sound
+  (05/02/14 M.S.)
+- main loop delay to reduce CPU usage (05/02/14 T.M.)
+	
+1.0.1:
+- proper event filter added for blocking wait (03/04/23)
+- include warnings fixed in SFont.c (03/04/23 Pierre Sarrazin)
+- Barrage appears in the GNOME and KDE game menus (03/04/23 Pierre Sarrazin)
+- RPM can be created (03/04/23 Pierre Sarrazin)
+- uninstall added (03/04/23 Pierre Sarrazin)
+
+1.0
+- initial public release (03/04/22)
